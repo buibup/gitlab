@@ -1,0 +1,11 @@
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2555-01-13 16:07:30
+hint
+project --topLevelPackage com.test
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+entity jpa --class ~.domain.Student
+field string --fieldName name --notNull 
+perform tests
+web mvc setup
+web mvc all --package ~.web
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2555-01-13 16:49:30

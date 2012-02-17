@@ -1,0 +1,12 @@
+<aspectj>
+<aspects>
+<aspect name="com.test.domain.Student_Roo_ToString"/>
+<aspect name="com.test.web.StudentController_Roo_Controller"/>
+<aspect name="com.test.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.test.domain.Student_Roo_JavaBean"/>
+<aspect name="com.test.domain.Student_Roo_Jpa_Entity"/>
+<aspect name="com.test.domain.Student_Roo_Configurable"/>
+<aspect name="com.test.domain.Student_Roo_Jpa_ActiveRecord"/>
+</aspects>
+</aspectj>
+
